@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/intake-lambda/.venv/bin/python",
+  "python.formatting.blackPath": "${workspaceFolder}/intake-lambda/.venv/bin/black",
+  "python.linting.mypyPath": "${workspaceFolder}/intake-lambda/.venv/bin/mypy",
+  "python.linting.flake8Path": "${workspaceFolder}/intake-lambda/.venv/bin/flake8",
+  "python.testing.pytestPath": "${workspaceFolder}/intake-lambda/.venv/bin/pytest",
+  "isort.path": ["${workspaceFolder}/intake-lambda/.venv/bin/isort"]
+}
