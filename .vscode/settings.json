@@ -1,8 +1,11 @@
 {
-  "python.defaultInterpreterPath": "${workspaceFolder}/intake-lambda/.venv/bin/python",
-  "python.formatting.blackPath": "${workspaceFolder}/intake-lambda/.venv/bin/black",
-  "python.linting.mypyPath": "${workspaceFolder}/intake-lambda/.venv/bin/mypy",
-  "python.linting.flake8Path": "${workspaceFolder}/intake-lambda/.venv/bin/flake8",
-  "python.testing.pytestPath": "${workspaceFolder}/intake-lambda/.venv/bin/pytest",
-  "isort.path": ["${workspaceFolder}/intake-lambda/.venv/bin/isort"]
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+  "python.linting.mypyPath": "${workspaceFolder}/.venv/bin/mypy",
+  "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8",
+  "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
+  "isort.path": ["${workspaceFolder}/.venv/bin/isort"],
+  "python.testing.pytestArgs": ["."],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
