@@ -21,6 +21,7 @@ authors = ["Ville Väänänen <ville.vaananen@fortum.com>"]
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
 pandas = "^1.5.2"
+matplotlib = "^3.6.2"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^0.991"
